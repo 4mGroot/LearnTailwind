@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind</title>
+    <link href="./output.css" rel="stylesheet">
+</head>
+
+<body>
+    <!--bg สี ความเข้มสี  -->
+    <h1 class="bg-pink-500">nontawat</h1>
+    <div class="bg-red-500 text-white text-4xl w-40">Hello world</div>
+    <div class="text-white text-4xl lowercase">Hello world</div>
+    <div class="text-white text-4xl capitalize">Hello world</div>
+    <!-- margin pading -->
+    <div class="bg-blue-500 m-10 p-10">
+        <div class="bg-red-500" >content</div>
+    </div>
+    <!-- Responsive -->
+    <div class="container bg-blue-500 mx-auto">
+        <div class="text-4xl sm:text-yellow-500 md:text-white">heading</div>
+    </div>
+    <!-- Layer&apply เราไปตั้งค่าใน input.css ไว้แล้วว่าให้ tag a เป็นสีแดง จะได้ไม่ต้องมานั่งเขียน text-red-500 ซ้ำ -->
+    <a href="#">Menu1</a>
+    <a href="#">Menu2</a>
+    <a href="#">Menu3</a>
+    <a href="#">Menu4</a>
+    <!-- component =จัดการ class-->
+    <div class="m-10">
+        <a href="" class="menu-button">Draf</a>
+        <a href="" class="menu-button">Draf</a>
+        <a href="" class="menu-button">Draf</a>
+    </div>
+    <!-- Utility class =ปรับแต่ง class-->
+    <h1 class="text-green-500">woahhhhhhhhh</h1>
+</body>
+</html>
